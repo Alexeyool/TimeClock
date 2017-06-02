@@ -1,0 +1,270 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/RelativeLayoutAPE"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/set2_main_backgraund"
+    tools:context="${packageName}.${activityClass}" >
+
+    <ScrollView
+        android:id="@+id/scrollViewAPE"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/linearLayoutAPE_buttons"
+        android:layout_alignParentTop="true" >
+
+        <LinearLayout
+            android:id="@+id/linearLayoutAPE_main"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" 
+            android:focusable="true"
+        android:descendantFocusability="beforeDescendants"
+        android:focusableInTouchMode="true">
+
+            <TextView
+                android:id="@+id/textViewAPE_profile_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/table_3_rows_right_left"
+                android:layout_marginRight="@dimen/table_3_rows_right_left"
+                android:layout_marginTop="@dimen/table_top"
+                android:text="@string/profile_name" />
+
+            <EditText
+                android:id="@+id/editTextAPE_profile_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/table_bottom"
+                android:layout_marginLeft="@dimen/table_3_rows_right_left"
+                android:layout_marginRight="@dimen/table_3_rows_right_left"
+                android:inputType="text" />
+
+            <TableLayout
+                android:id="@+id/tableLayoutAPE_misc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/table_bottom"
+                android:layout_marginLeft="@dimen/table_2_rows_right_left"
+                android:layout_marginRight="@dimen/table_2_rows_right_left"
+                android:stretchColumns="*" >
+
+                <TextView
+                    android:id="@+id/textViewAPE_hour_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/payment_method_day_hour" />
+
+                <TableRow
+                    android:id="@+id/tableRowAPE_hour"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+
+                    <Spinner
+                        android:id="@+id/SpinnerAPE_pay_per_hour"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                    <EditText
+                        android:id="@+id/editTextAPE_pay_per_hour"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="numberDecimal" />
+                </TableRow>
+
+                <TextView
+                    android:id="@+id/textViewAPE_travel_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/travel_payment_method_month_day" />
+
+                <TableRow
+                    android:id="@+id/tableRowAPE_travel_per_day"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <Spinner
+                        android:id="@+id/SpinnerAPE_travel_per_day_title"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                    <EditText
+                        android:id="@+id/editTextAPE_travel_per_day"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="numberDecimal" />
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/TableRowAPE_not_payde_break"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:id="@+id/textViewAPE_break"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/not_pay_braek" />
+
+                    <EditText
+                        android:id="@+id/editTextAPE_braek"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="time" />
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/TableRowAPE_sick_day_pay"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:id="@+id/textViewAPE_sick_pay"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/sick_pay_per_day" />
+
+                    <EditText
+                        android:id="@+id/editTextAPE_sick_pay"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="numberDecimal" />
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/TableRowAPE_vacation"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:id="@+id/textViewAPE_vacation"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/vacation_pay_per_day" />
+
+                    <EditText
+                        android:id="@+id/editTextAPE_vacation"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="numberDecimal" />
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/TableRowAPE_holiday"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:id="@+id/TextViewAPE_holiday"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/holiday_pay_per" />
+
+                    <EditText
+                        android:id="@+id/EditTextAPE_holiday"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="numberDecimal" />
+                </TableRow>
+
+            </TableLayout>
+
+            <LinearLayout
+                android:id="@+id/linearLayoutAPE_procents"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/textViewAPE_procent_title_weekday"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/table_3_rows_right_left"
+                    android:text="@string/weekday" />
+
+                <TableLayout
+                    android:id="@+id/TableLayoutAPE_procents_weekday"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/table_bottom"
+                    android:layout_marginLeft="@dimen/table_3_rows_right_left"
+                    android:layout_marginRight="@dimen/table_3_rows_right_left"
+                    android:stretchColumns="*" >
+                </TableLayout>
+
+                <Button
+                    android:id="@+id/buttonAPE_procent_change_weekday"
+                    style="@style/button_style"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/button_height"
+                    android:layout_marginLeft="@dimen/button_1_right_left"
+                    android:layout_marginRight="@dimen/button_1_right_left"
+                    android:text="@string/edit_procents" />
+
+                <TextView
+                    android:id="@+id/textViewAPE_procent_title_weekend"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/table_3_rows_right_left"
+                    android:layout_marginTop="@dimen/table_top"
+                    android:text="@string/weekend_or_holiday" />
+
+                <TableLayout
+                    android:id="@+id/TableLayoutAPE_procents_weekend"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/table_bottom"
+                    android:layout_marginLeft="@dimen/table_3_rows_right_left"
+                    android:layout_marginRight="@dimen/table_3_rows_right_left"
+                    android:stretchColumns="*" >
+                </TableLayout>
+
+                <Button
+                    android:id="@+id/buttonAPE_procent_change_weekend"
+                    style="@style/button_style"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/button_height"
+                    android:layout_marginLeft="@dimen/button_1_right_left"
+                    android:layout_marginRight="@dimen/button_1_right_left"
+                    android:text="@string/edit_procents" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/linearLayoutAPE_buttons"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="@dimen/button_2_bottom"
+        android:layout_marginLeft="@dimen/button_2_right_left"
+        android:layout_marginRight="@dimen/button_2_right_left"
+        android:layout_marginTop="@dimen/button_2_top" >
+
+        <Button
+            android:id="@+id/buttonAPE_save"
+            style="@style/button_style"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/button_height"
+            android:layout_marginRight="@dimen/button_2_betwin"
+            android:layout_weight="1"
+            android:text="@string/save" />
+
+        <Button
+            android:id="@+id/buttonAPE_delete"
+            style="@style/button_style"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/button_height"
+            android:layout_marginLeft="@dimen/button_2_betwin"
+            android:layout_weight="1"
+            android:text="@string/delete" />
+    </LinearLayout>
+
+</RelativeLayout>

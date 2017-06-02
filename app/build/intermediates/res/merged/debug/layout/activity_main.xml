@@ -1,0 +1,277 @@
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:id="@android:id/content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/set2_main_backgraund"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/linearLayoutMA_month"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="@dimen/button_roll_top"
+            android:layout_marginBottom="@dimen/button_roll_bottom"
+            android:layout_marginLeft="@dimen/button_roll_right_left"
+            android:layout_marginRight="@dimen/button_roll_right_left"
+            android:orientation="horizontal" >
+            
+            <Button  
+                android:id="@+id/ButtonMA_month_preview"
+                style="@style/button_style"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/button_height"
+                android:text="@string/preview" />
+
+            <TextView
+                android:id="@+id/textViewMA_month"
+                style="@style/button_style"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:clickable="false"
+                android:layout_marginLeft="@dimen/button_roll_right_left"
+                android:layout_marginRight="@dimen/button_roll_right_left"
+                android:gravity="center_vertical|center_horizontal"
+                android:text="@string/empty_date" />
+
+            <Button
+                android:id="@+id/ButtonMA_next"
+                style="@style/button_style"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/button_height"
+                android:text="@string/next_sing" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayoutMA_main"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/linearLayoutMA_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:layout_marginTop="15dp" >
+
+                <Button
+                    android:id="@+id/buttonMA_start"
+                    style="@style/button_style"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="1"
+                    android:text="@string/start" />
+
+                <Button
+                    android:id="@+id/buttonMA_stop"
+                    style="@style/button_style"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_weight="1"
+                    android:text="@string/end" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearLayoutMA_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="2dp" >
+
+                <Button
+                    android:id="@+id/buttonMA_cancel"
+                    style="@style/button_style"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="1"
+                    android:text="@string/cancel" />
+
+                <Button
+                    android:id="@+id/buttonMA_self"
+                    style="@style/button_style"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_weight="1"
+                    android:text="@string/self" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/LinearLayoutMA_total"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/linearLayoutMA_main"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true" >
+
+            <TextView
+                android:id="@+id/TextViewMA_total"
+                style="@style/edittext_style"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/total" />
+
+            <TextView
+                android:id="@+id/TextViewMA_total_days"
+                style="@style/edittext_style"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="1dp"
+                android:layout_weight="1"
+                android:text="@string/days" />
+
+            <TextView
+                android:id="@+id/TextViewMA_total_type"
+                style="@style/edittext_style"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="1dp"
+                android:layout_weight="1"
+                android:text="@string/zero" />
+
+            <TextView
+                android:id="@+id/TextViewMA_total_start"
+                style="@style/edittext_style"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="1dp"
+                android:layout_weight="1"
+                android:text="@string/hours" />
+
+            <TextView
+                android:id="@+id/TextViewMA_total_end"
+                style="@style/edittext_style"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="1dp"
+                android:layout_weight="1"
+                android:text="@string/zero" />
+
+            <TextView
+                android:id="@+id/TextViewMA_total_100"
+                style="@style/edittext_style"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="1dp"
+                android:layout_weight="1"
+                android:text="@string/money" />
+
+            <TextView
+                android:id="@+id/TextViewMA_total_many"
+                style="@style/edittext_style"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="1dp"
+                android:layout_weight="1"
+                android:text="@string/zero" />
+        </LinearLayout>
+
+        <ListView
+            android:id="@+id/listViewMA"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/set2_main_list_backgraund"
+            android:layout_above="@+id/LinearLayoutMA_total"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/linearLayoutMA_titles" >
+        </ListView>
+
+        <LinearLayout
+            android:id="@+id/linearLayoutMA_titles"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/linearLayoutMA_month" >
+
+            <TextView
+                android:id="@+id/textViewMA_date"
+                style="@style/edittext_style"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="1dp"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:text="@string/date" />
+
+            <TextView
+                android:id="@+id/textViewMA_type"
+                style="@style/edittext_style"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="1dp"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:text="@string/type" />
+
+            <TextView
+                android:id="@+id/textViewMA_start"
+                style="@style/edittext_style"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="1dp"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:text="@string/start" />
+
+            <TextView
+                android:id="@+id/textViewMA_end"
+                style="@style/edittext_style"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="1dp"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:text="@string/end" />
+
+            <TextView
+                android:id="@+id/textViewMA_100"
+                style="@style/edittext_style"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="1dp"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:text="@string/hours" />
+
+            <TextView
+                android:id="@+id/textViewMA_many"
+                style="@style/edittext_style"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="1dp"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:text="@string/money" />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/list_slidermenu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:background="@color/set2_slidermenu_backgraund"
+        android:choiceMode="singleChoice"
+        android:dividerHeight="1dp" />
+
+</android.support.v4.widget.DrawerLayout>

@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "E:\\Android\\WorkSpace\\TimeClock\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_action_name.png",
+        "source": "E:\\Android\\WorkSpace\\TimeClock\\app\\src\\main\\res\\drawable-xxhdpi\\ic_action_name.png"
+    },
+    {
+        "merged": "E:\\Android\\WorkSpace\\TimeClock\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_prevews.png",
+        "source": "E:\\Android\\WorkSpace\\TimeClock\\app\\src\\main\\res\\drawable-xxhdpi\\ic_prevews.png"
+    },
+    {
+        "merged": "E:\\Android\\WorkSpace\\TimeClock\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\tool_email.png",
+        "source": "E:\\Android\\WorkSpace\\TimeClock\\app\\src\\main\\res\\drawable-xxhdpi\\tool_email.png"
+    },
+    {
+        "merged": "E:\\Android\\WorkSpace\\TimeClock\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\tool_settings.png",
+        "source": "E:\\Android\\WorkSpace\\TimeClock\\app\\src\\main\\res\\drawable-xxhdpi\\tool_settings.png"
+    },
+    {
+        "merged": "E:\\Android\\WorkSpace\\TimeClock\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_next.png",
+        "source": "E:\\Android\\WorkSpace\\TimeClock\\app\\src\\main\\res\\drawable-xxhdpi\\ic_next.png"
+    },
+    {
+        "merged": "E:\\Android\\WorkSpace\\TimeClock\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\tool_shift.png",
+        "source": "E:\\Android\\WorkSpace\\TimeClock\\app\\src\\main\\res\\drawable-xxhdpi\\tool_shift.png"
+    },
+    {
+        "merged": "E:\\Android\\WorkSpace\\TimeClock\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\tool_month.png",
+        "source": "E:\\Android\\WorkSpace\\TimeClock\\app\\src\\main\\res\\drawable-xxhdpi\\tool_month.png"
+    },
+    {
+        "merged": "E:\\Android\\WorkSpace\\TimeClock\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_action_home.png",
+        "source": "E:\\Android\\WorkSpace\\TimeClock\\app\\src\\main\\res\\drawable-xxhdpi\\ic_action_home.png"
+    },
+    {
+        "merged": "E:\\Android\\WorkSpace\\TimeClock\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\tool_profile.png",
+        "source": "E:\\Android\\WorkSpace\\TimeClock\\app\\src\\main\\res\\drawable-xxhdpi\\tool_profile.png"
+    }
+]

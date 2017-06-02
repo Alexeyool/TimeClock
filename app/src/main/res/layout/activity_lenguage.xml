@@ -1,0 +1,91 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relativeLayoutAL_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/set2_main_backgraund"
+    tools:context="${packageName}.${activityClass}" >
+
+    <LinearLayout
+        android:id="@+id/linearLayoutAL_main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/linearLayoutAL_english"
+            style="@style/button_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/button_2_bottom" >
+
+            <ImageView
+                android:id="@+id/imageViewAL_english"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/empty"
+                android:src="@drawable/tool_email" />
+
+            <TextView
+                android:id="@+id/TextViewAL_english"
+                style="@style/button_style"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clickable="false"
+                android:text="@string/english" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayoutAL_russian"
+            style="@style/button_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/button_2_bottom" >
+
+            <ImageView
+                android:id="@+id/imageViewAL_russian"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/empty"
+                android:src="@drawable/tool_email" />
+
+            <TextView
+                android:id="@+id/TextViewAL_russian"
+                style="@style/button_style"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clickable="false"
+                android:text="@string/russian" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayoutAL_hebrow"
+            style="@style/button_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <ImageView
+                android:id="@+id/imageViewAL_hebrow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/empty"
+                android:src="@drawable/tool_email" />
+
+            <TextView
+                android:id="@+id/TextViewAL_hebrow"
+                style="@style/button_style"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clickable="false"
+                android:text="@string/hebrow" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,190 @@
+[
+    {
+        "merged": "E:\\Android\\WorkSpace\\TimeClock\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_tabbar.xml",
+        "source": "E:\\Android\\WorkSpace\\TimeClock\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\layout\\abc_action_bar_tabbar.xml"
+    },
+    {
+        "merged": "E:\\Android\\WorkSpace\\TimeClock\\app\\build\\intermediates\\res\\merged\\debug\\layout\\day_information_edit.xml",
+        "source": "E:\\Android\\WorkSpace\\TimeClock\\app\\src\\main\\res\\layout\\day_information_edit.xml"
+    },
+    {
+        "merged": "E:\\Android\\WorkSpace\\TimeClock\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_layout.xml",
+        "source": "E:\\Android\\WorkSpace\\TimeClock\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\layout\\abc_list_menu_item_layout.xml"
+    },
+    {
+        "merged": "E:\\Android\\WorkSpace\\TimeClock\\app\\build\\intermediates\\res\\merged\\debug\\layout\\month_tables.xml",
+        "source": "E:\\Android\\WorkSpace\\TimeClock\\app\\src\\main\\res\\layout\\month_tables.xml"
+    },
+    {
+        "merged": "E:\\Android\\WorkSpace\\TimeClock\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_icon.xml",
+        "source": "E:\\Android\\WorkSpace\\TimeClock\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\layout\\abc_list_menu_item_icon.xml"
+    },
+    {
+        "merged": "E:\\Android\\WorkSpace\\TimeClock\\app\\build\\intermediates\\res\\merged\\debug\\layout\\day_information_edit_sickday.xml",
+        "source": "E:\\Android\\WorkSpace\\TimeClock\\app\\src\\main\\res\\layout\\day_information_edit_sickday.xml"
+    },
+    {
+        "merged": "E:\\Android\\WorkSpace\\TimeClock\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_item_layout.xml",
+        "source": "E:\\Android\\WorkSpace\\TimeClock\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\layout\\abc_action_menu_item_layout.xml"
+    },
+    {
+        "merged": "E:\\Android\\WorkSpace\\TimeClock\\app\\build\\intermediates\\res\\merged\\debug\\layout\\cell_list_main.xml",
+        "source": "E:\\Android\\WorkSpace\\TimeClock\\app\\src\\main\\res\\layout\\cell_list_main.xml"
+    },
+    {
+        "merged": "E:\\Android\\WorkSpace\\TimeClock\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_month_information.xml",
+        "source": "E:\\Android\\WorkSpace\\TimeClock\\app\\src\\main\\res\\layout\\activity_month_information.xml"
+    },
+    {
+        "merged": "E:\\Android\\WorkSpace\\TimeClock\\app\\build\\intermediates\\res\\merged\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
+        "source": "E:\\Android\\WorkSpace\\TimeClock\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\layout\\support_simple_spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "E:\\Android\\WorkSpace\\TimeClock\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_profile.xml",
+        "source": "E:\\Android\\WorkSpace\\TimeClock\\app\\src\\main\\res\\layout\\activity_profile.xml"
+    },
+    {
+        "merged": "E:\\Android\\WorkSpace\\TimeClock\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_dropdown_item_icons_2line.xml",
+        "source": "E:\\Android\\WorkSpace\\TimeClock\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
+    },
+    {
+        "merged": "E:\\Android\\WorkSpace\\TimeClock\\app\\build\\intermediates\\res\\merged\\debug\\layout\\cell_list_profile.xml",
+        "source": "E:\\Android\\WorkSpace\\TimeClock\\app\\src\\main\\res\\layout\\cell_list_profile.xml"
+    },
+    {
+        "merged": "E:\\Android\\WorkSpace\\TimeClock\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_decor_overlay.xml",
+        "source": "E:\\Android\\WorkSpace\\TimeClock\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\layout\\abc_action_bar_decor_overlay.xml"
+    },
+    {
+        "merged": "E:\\Android\\WorkSpace\\TimeClock\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_settings.xml",
+        "source": "E:\\Android\\WorkSpace\\TimeClock\\app\\src\\main\\res\\layout\\activity_settings.xml"
+    },
+    {
+        "merged": "E:\\Android\\WorkSpace\\TimeClock\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_date_choise.xml",
+        "source": "E:\\Android\\WorkSpace\\TimeClock\\app\\src\\main\\res\\layout\\activity_date_choise.xml"
+    },
+    {
+        "merged": "E:\\Android\\WorkSpace\\TimeClock\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_expanded_menu_layout.xml",
+        "source": "E:\\Android\\WorkSpace\\TimeClock\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\layout\\abc_expanded_menu_layout.xml"
+    },
+    {
+        "merged": "E:\\Android\\WorkSpace\\TimeClock\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_radio.xml",
+        "source": "E:\\Android\\WorkSpace\\TimeClock\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\layout\\abc_list_menu_item_radio.xml"
+    },
+    {
+        "merged": "E:\\Android\\WorkSpace\\TimeClock\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_tab.xml",
+        "source": "E:\\Android\\WorkSpace\\TimeClock\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\layout\\abc_action_bar_tab.xml"
+    },
+    {
+        "merged": "E:\\Android\\WorkSpace\\TimeClock\\app\\build\\intermediates\\res\\merged\\debug\\layout\\action_bar_main.xml",
+        "source": "E:\\Android\\WorkSpace\\TimeClock\\app\\src\\main\\res\\layout\\action_bar_main.xml"
+    },
+    {
+        "merged": "E:\\Android\\WorkSpace\\TimeClock\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_view.xml",
+        "source": "E:\\Android\\WorkSpace\\TimeClock\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\layout\\abc_search_view.xml"
+    },
+    {
+        "merged": "E:\\Android\\WorkSpace\\TimeClock\\app\\build\\intermediates\\res\\merged\\debug\\layout\\action_bar_secondary.xml",
+        "source": "E:\\Android\\WorkSpace\\TimeClock\\app\\src\\main\\res\\layout\\action_bar_secondary.xml"
+    },
+    {
+        "merged": "E:\\Android\\WorkSpace\\TimeClock\\app\\build\\intermediates\\res\\merged\\debug\\layout\\day_information_profile.xml",
+        "source": "E:\\Android\\WorkSpace\\TimeClock\\app\\src\\main\\res\\layout\\day_information_profile.xml"
+    },
+    {
+        "merged": "E:\\Android\\WorkSpace\\TimeClock\\app\\build\\intermediates\\res\\merged\\debug\\layout\\day_information_procent.xml",
+        "source": "E:\\Android\\WorkSpace\\TimeClock\\app\\src\\main\\res\\layout\\day_information_procent.xml"
+    },
+    {
+        "merged": "E:\\Android\\WorkSpace\\TimeClock\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view_include.xml",
+        "source": "E:\\Android\\WorkSpace\\TimeClock\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\layout\\abc_activity_chooser_view_include.xml"
+    },
+    {
+        "merged": "E:\\Android\\WorkSpace\\TimeClock\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen.xml",
+        "source": "E:\\Android\\WorkSpace\\TimeClock\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\layout\\abc_screen.xml"
+    },
+    {
+        "merged": "E:\\Android\\WorkSpace\\TimeClock\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_close_item.xml",
+        "source": "E:\\Android\\WorkSpace\\TimeClock\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\layout\\abc_action_mode_close_item.xml"
+    },
+    {
+        "merged": "E:\\Android\\WorkSpace\\TimeClock\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_bar.xml",
+        "source": "E:\\Android\\WorkSpace\\TimeClock\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\layout\\abc_action_mode_bar.xml"
+    },
+    {
+        "merged": "E:\\Android\\WorkSpace\\TimeClock\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_title_item.xml",
+        "source": "E:\\Android\\WorkSpace\\TimeClock\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\layout\\abc_action_bar_title_item.xml"
+    },
+    {
+        "merged": "E:\\Android\\WorkSpace\\TimeClock\\app\\build\\intermediates\\res\\merged\\debug\\layout\\day_information_edit_quick.xml",
+        "source": "E:\\Android\\WorkSpace\\TimeClock\\app\\src\\main\\res\\layout\\day_information_edit_quick.xml"
+    },
+    {
+        "merged": "E:\\Android\\WorkSpace\\TimeClock\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view_list_item.xml",
+        "source": "E:\\Android\\WorkSpace\\TimeClock\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\layout\\abc_activity_chooser_view_list_item.xml"
+    },
+    {
+        "merged": "E:\\Android\\WorkSpace\\TimeClock\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_day_information.xml",
+        "source": "E:\\Android\\WorkSpace\\TimeClock\\app\\src\\main\\res\\layout\\activity_day_information.xml"
+    },
+    {
+        "merged": "E:\\Android\\WorkSpace\\TimeClock\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_profile_edit.xml",
+        "source": "E:\\Android\\WorkSpace\\TimeClock\\app\\src\\main\\res\\layout\\activity_profile_edit.xml"
+    },
+    {
+        "merged": "E:\\Android\\WorkSpace\\TimeClock\\app\\build\\intermediates\\res\\merged\\debug\\layout\\cell_list_tools.xml",
+        "source": "E:\\Android\\WorkSpace\\TimeClock\\app\\src\\main\\res\\layout\\cell_list_tools.xml"
+    },
+    {
+        "merged": "E:\\Android\\WorkSpace\\TimeClock\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "E:\\Android\\WorkSpace\\TimeClock\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "E:\\Android\\WorkSpace\\TimeClock\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_layout.xml",
+        "source": "E:\\Android\\WorkSpace\\TimeClock\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\layout\\abc_action_menu_layout.xml"
+    },
+    {
+        "merged": "E:\\Android\\WorkSpace\\TimeClock\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_item_layout.xml",
+        "source": "E:\\Android\\WorkSpace\\TimeClock\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\layout\\abc_popup_menu_item_layout.xml"
+    },
+    {
+        "merged": "E:\\Android\\WorkSpace\\TimeClock\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_checkbox.xml",
+        "source": "E:\\Android\\WorkSpace\\TimeClock\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\layout\\abc_list_menu_item_checkbox.xml"
+    },
+    {
+        "merged": "E:\\Android\\WorkSpace\\TimeClock\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_lenguage.xml",
+        "source": "E:\\Android\\WorkSpace\\TimeClock\\app\\src\\main\\res\\layout\\activity_lenguage.xml"
+    },
+    {
+        "merged": "E:\\Android\\WorkSpace\\TimeClock\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_decor_include.xml",
+        "source": "E:\\Android\\WorkSpace\\TimeClock\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\layout\\abc_action_bar_decor_include.xml"
+    },
+    {
+        "merged": "E:\\Android\\WorkSpace\\TimeClock\\app\\build\\intermediates\\res\\merged\\debug\\layout\\day_information_edit_workday_per_day.xml",
+        "source": "E:\\Android\\WorkSpace\\TimeClock\\app\\src\\main\\res\\layout\\day_information_edit_workday_per_day.xml"
+    },
+    {
+        "merged": "E:\\Android\\WorkSpace\\TimeClock\\app\\build\\intermediates\\res\\merged\\debug\\layout\\profile_prosent_edit.xml",
+        "source": "E:\\Android\\WorkSpace\\TimeClock\\app\\src\\main\\res\\layout\\profile_prosent_edit.xml"
+    },
+    {
+        "merged": "E:\\Android\\WorkSpace\\TimeClock\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_home.xml",
+        "source": "E:\\Android\\WorkSpace\\TimeClock\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\layout\\abc_action_bar_home.xml"
+    },
+    {
+        "merged": "E:\\Android\\WorkSpace\\TimeClock\\app\\build\\intermediates\\res\\merged\\debug\\layout\\day_information_edit_workday_per_hour.xml",
+        "source": "E:\\Android\\WorkSpace\\TimeClock\\app\\src\\main\\res\\layout\\day_information_edit_workday_per_hour.xml"
+    },
+    {
+        "merged": "E:\\Android\\WorkSpace\\TimeClock\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_view_list_nav_layout.xml",
+        "source": "E:\\Android\\WorkSpace\\TimeClock\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\18.0.0\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
+    },
+    {
+        "merged": "E:\\Android\\WorkSpace\\TimeClock\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_email.xml",
+        "source": "E:\\Android\\WorkSpace\\TimeClock\\app\\src\\main\\res\\layout\\activity_email.xml"
+    },
+    {
+        "merged": "E:\\Android\\WorkSpace\\TimeClock\\app\\build\\intermediates\\res\\merged\\debug\\layout\\profile_procent_text_row.xml",
+        "source": "E:\\Android\\WorkSpace\\TimeClock\\app\\src\\main\\res\\layout\\profile_procent_text_row.xml"
+    }
+]

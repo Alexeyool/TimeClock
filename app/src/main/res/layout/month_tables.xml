@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textViewMT_profile_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/table_bottom"
+        android:layout_marginLeft="@dimen/table_3_rows_right_left"
+        android:layout_marginRight="@dimen/table_3_rows_right_left"
+        android:layout_marginTop="@dimen/table_top"
+        android:text="@string/profile_name" />
+
+    <TableLayout
+        android:id="@+id/TableLayoutMT_days"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/table_bottom"
+        android:layout_marginLeft="@dimen/table_2_rows_right_left"
+        android:layout_marginRight="@dimen/table_2_rows_right_left"
+        android:stretchColumns="*" >
+
+        <TableRow
+            android:id="@+id/tableRowMT_days_work"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/textViewMT_days_work_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/work_days" />
+
+            <TextView
+                android:id="@+id/textViewMT_days_work"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/zero" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRowMT_vacation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/textViewMT_vacation_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/vacation_days" />
+
+            <TextView
+                android:id="@+id/textViewMT_vacation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/zero" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRowMT_sick"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/textViewMT_sick_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/sick_days" />
+
+            <TextView
+                android:id="@+id/textViewMT_sick"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/zero" />
+        </TableRow>
+    </TableLayout>
+
+    <TableLayout
+        android:id="@+id/TableLayoutMT_hours"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/table_bottom"
+        android:layout_marginLeft="@dimen/table_3_rows_right_left"
+        android:layout_marginRight="@dimen/table_3_rows_right_left"
+        android:stretchColumns="*" >
+    </TableLayout>
+
+    <TableLayout
+        android:id="@+id/TableLayoutMT_total"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/table_bottom"
+        android:layout_marginLeft="@dimen/table_3_rows_right_left"
+        android:layout_marginRight="@dimen/table_3_rows_right_left"
+        android:stretchColumns="*" >
+
+        <TableRow
+            android:id="@+id/tableRowMT_total_titles"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/textViewMT_total_titles_empty"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/empty" />
+
+            <TextView
+                android:id="@+id/textViewMT_total_titles_days"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/days" />
+
+            <TextView
+                android:id="@+id/textViewMT_total_titles_hours"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/hours" />
+
+            <TextView
+                android:id="@+id/textViewMT_total_titles_money"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/money" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRowMT_total"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/table_bottom"
+            android:layout_marginLeft="@dimen/table_3_rows_right_left"
+            android:layout_marginRight="@dimen/table_3_rows_right_left"
+            android:stretchColumns="*" >
+
+            <TextView
+                android:id="@+id/textViewMT_total_total"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/total" />
+
+            <TextView
+                android:id="@+id/textViewMT_total_days"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/zero" />
+
+            <TextView
+                android:id="@+id/textViewMT_total_hours"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/zero" />
+
+            <TextView
+                android:id="@+id/textViewMT_total_money"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/zero" />
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>

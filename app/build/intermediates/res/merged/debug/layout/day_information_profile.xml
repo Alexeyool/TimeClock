@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollViewDIP"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:id="@+id/linearLayoutDIP_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TableLayout
+            android:id="@+id/TableLayoutDIP_misc_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/table_bottom"
+            android:layout_marginLeft="@dimen/table_2_rows_right_left"
+            android:layout_marginRight="@dimen/table_2_rows_right_left"
+            android:stretchColumns="*" >
+
+            <TableRow
+                android:id="@+id/TableRowDIP_profile_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/TextViewDIP_profile_name_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/profile_name" />
+
+                <TextView
+                    android:id="@+id/TextViewDIP_profile_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/empty" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/TableRowDIP_shift_type"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/TextViewDIP_shift_type_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/shift_type" />
+
+                <TextView
+                    android:id="@+id/TextViewDIP_shift_type"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/empty" />
+            </TableRow>
+        </TableLayout>
+
+        <TableLayout
+            android:id="@+id/tableLayoutDIP_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/table_bottom"
+            android:layout_marginLeft="@dimen/table_3_rows_right_left"
+            android:layout_marginRight="@dimen/table_3_rows_right_left"
+            android:stretchColumns="*" >
+
+            <TableRow
+                android:id="@+id/tableRowDIP_time_start"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/TextViewDIP_start"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/start" />
+
+                <TextView
+                    android:id="@+id/textViewDIP_start_time"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/empty_time" />
+
+                <TextView
+                    android:id="@+id/textViewDIP_start_date"
+                    style="@style/text_view_main_style"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/empty_date" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRowDIP_time_end"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/textViewDIP_end"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/end" />
+
+                <TextView
+                    android:id="@+id/textViewDIP_end_time"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/empty_time" />
+
+                <TextView
+                    android:id="@+id/textViewDIP_end_date"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/empty_date" />
+            </TableRow>
+        </TableLayout>
+
+        <TableLayout
+            android:id="@+id/tableLayoutDIP_misc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/table_bottom"
+            android:layout_marginLeft="@dimen/table_2_rows_right_left"
+            android:layout_marginRight="@dimen/table_2_rows_right_left"
+            android:stretchColumns="*" >
+
+            <TableRow
+                android:id="@+id/tableRowDIP_pay_per_hour"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/textViewDIP_pay_per_hour_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/per_hour" />
+
+                <TextView
+                    android:id="@+id/textViewDIP_pay_per_hour_money"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/zero" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRowDIP_date"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/textViewDIP_date_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/date" />
+
+                <TextView
+                    android:id="@+id/TextViewDIP_date"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/empty_date" >
+                </TextView>
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRowDIP_pay_per_day"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/textViewDIEP_pay_per_day_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/pay_per_day" />
+
+                <TextView
+                    android:id="@+id/TextViewDIP_pay_per_day_money"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/zero" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRowDIP_procent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/textViewDIP_prosent_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/prosent" />
+
+                <TextView
+                    android:id="@+id/TextViewDIP_prosent"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/zero" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRowDIP_not_pay_break"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/textViewDIP_not_pay_break_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/not_pay_braek" />
+
+                <TextView
+                    android:id="@+id/textViewDIP_not_pay_break_Time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/empty_time" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRowDIP_award"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/textViewDIP_award_titel"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/award" />
+
+                <TextView
+                    android:id="@+id/textViewDIP_award_money"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/zero" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRowDIP_flow"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/textViewDIP_flow_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/flow" />
+
+                <TextView
+                    android:id="@+id/textViewDIP_flow_money"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/zero" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRowDIP_travel_per_day"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/textViewDIP_travel_per_day_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/travel_per_day" />
+
+                <TextView
+                    android:id="@+id/TextViewDIP_travel_per_day"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/zero" />
+            </TableRow>
+        </TableLayout>
+
+        <TableLayout
+            android:id="@+id/tableLayoutDIP_procents"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/table_bottom"
+            android:layout_marginLeft="@dimen/table_3_rows_right_left"
+            android:layout_marginRight="@dimen/table_3_rows_right_left"
+            android:stretchColumns="*" >
+        </TableLayout>
+
+        <TableLayout
+            android:id="@+id/tableLayoutDIP_total"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/table_bottom"
+            android:layout_marginLeft="@dimen/table_3_rows_right_left"
+            android:layout_marginRight="@dimen/table_3_rows_right_left"
+            android:stretchColumns="*" >
+
+            <TableRow
+                android:id="@+id/tableRowDIP_summary_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/textViewDIP_sum_empty"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/empty" />
+
+                <TextView
+                    android:id="@+id/textViewDIP_sum_hours"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/hours" />
+
+                <TextView
+                    android:id="@+id/textViewDIP_sum_money"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/money" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRowDIP_summary_total"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/textViewDIP_total_"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/total" />
+
+                <TextView
+                    android:id="@+id/textViewDIP_total_hours"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/zero" />
+
+                <TextView
+                    android:id="@+id/textViewDIP_total_money"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/zero" />
+            </TableRow>
+        </TableLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayoutDIP_note"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/note_right_left"
+            android:layout_marginRight="@dimen/note_right_left"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textViewDIP_note_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/note" />
+
+            <TextView
+                android:id="@+id/TextViewDIP_note"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/empty" />
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

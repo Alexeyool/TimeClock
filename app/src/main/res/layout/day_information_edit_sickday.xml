@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollViewDIES"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:id="@+id/linearLayoutDIES_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" 
+        android:focusable="true"
+        android:descendantFocusability="beforeDescendants"
+        android:focusableInTouchMode="true">
+
+        <TableLayout
+            android:id="@+id/tableLayoutDIES_misc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/table_bottom"
+            android:layout_marginLeft="@dimen/table_2_rows_right_left"
+            android:layout_marginRight="@dimen/table_2_rows_right_left"
+            android:layout_marginTop="@dimen/table_top"
+            android:stretchColumns="*" >
+
+            <TableRow
+                android:id="@+id/tableRowDIES_date"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/textViewDIES_date_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/date" />
+
+                <EditText
+                    android:id="@+id/editTextDIES_date"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:inputType="date" >
+                </EditText>
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRowDIES_pay_per_day"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/textViewDIES_pay_per_day_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/pay_per_day" />
+
+                <EditText
+                    android:id="@+id/editTextDIES_pay_per_day"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:inputType="numberDecimal" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRowDIES_procent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/textViewDIES_prosent_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/prosent" />
+
+                <EditText
+                    android:id="@+id/editTextDIES_prosent"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:inputType="number" />
+            </TableRow>
+        </TableLayout>
+
+        <TableLayout
+            android:id="@+id/tableLayoutDIES_total"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/table_bottom"
+            android:layout_marginLeft="@dimen/table_3_rows_right_left"
+            android:layout_marginRight="@dimen/table_3_rows_right_left"
+            android:stretchColumns="*" >
+
+            <TableRow
+                android:id="@+id/tableRowDIES_total_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/textViewDIES_total_title_empty"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/empty" />
+
+                <TextView
+                    android:id="@+id/textViewDIES_total_title_days"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/day" />
+
+                <TextView
+                    android:id="@+id/textViewDIES_total_title_money"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/money" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRowDIES_total"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/textViewDIES_total_total"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/total" />
+
+                <TextView
+                    android:id="@+id/textViewDIES_total_days"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/zero" />
+
+                <TextView
+                    android:id="@+id/textViewDIES_total_money"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/zero" />
+            </TableRow>
+        </TableLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayoutDIES_note"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/note_right_left"
+            android:layout_marginRight="@dimen/note_right_left"
+            android:orientation="vertical"
+            android:stretchColumns="*" >
+
+            <TextView
+                android:id="@+id/textViewDIES_note_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/add_note" />
+
+            <EditText
+                android:id="@+id/editTextDIES_note"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textMultiLine" />
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

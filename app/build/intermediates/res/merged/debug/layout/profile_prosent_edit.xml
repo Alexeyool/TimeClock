@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayoutPPE_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/set2_main_backgraund" 
+    android:focusable="true"
+        android:descendantFocusability="beforeDescendants"
+        android:focusableInTouchMode="true">
+
+    <ScrollView
+        android:id="@+id/scrollViewPPE_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TableLayout
+            android:id="@+id/TableLayoutPPE"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" 
+            android:layout_margin="@dimen/table_2_rows_right_left"
+            android:stretchColumns="*">
+
+            <TableRow
+                android:id="@+id/tableRowPPE_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/TextViewPPE_title_prosent"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/prosent" />
+
+                <TextView
+                    android:id="@+id/TextViewPPE_title_hours"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/hours" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRowPPE_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <EditText
+                    android:id="@+id/editTextPPE_1_prosent"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:inputType="number" />
+
+                <EditText
+                    android:id="@+id/editTextPPE_1_hour"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:inputType="numberSigned" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRowPPE_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <EditText
+                    android:id="@+id/editTextPPE_2_prosent"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:inputType="number" />
+
+                <EditText
+                    android:id="@+id/editTextPPE_2_hour"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:inputType="numberSigned" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRowPPE_3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <EditText
+                    android:id="@+id/editTextPPE_3_procent"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:inputType="number" />
+
+                <EditText
+                    android:id="@+id/editTextPPE_3_hour"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:inputType="numberSigned" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/TableRowPPE_4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <EditText
+                    android:id="@+id/editTextPPE_4_procent"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:inputType="number" />
+
+                <EditText
+                    android:id="@+id/editTextPPE_4_hour"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:inputType="numberSigned" />
+            </TableRow>
+
+            <TextView
+                android:id="@+id/textViewPPE_error"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/empty"
+                android:textColor="@color/red" />
+
+        </TableLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/linearLayoutPPE_buttons"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true" 
+        android:layout_marginRight="@dimen/button_2_betwin"
+        android:layout_marginLeft="@dimen/button_2_betwin"
+        android:layout_marginBottom="@dimen/button_2_bottom">
+
+        <Button
+            android:id="@+id/buttonPPE_set"
+            style="@style/button_style"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/button_height"
+            android:layout_marginRight="@dimen/button_2_betwin"
+            android:layout_weight="1"
+            android:text="@string/set" />
+
+        <Button
+            android:id="@+id/buttonPPE_cancel"
+            style="@style/button_style"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/button_height"
+            android:layout_marginLeft="@dimen/button_2_betwin"
+            android:layout_weight="1"
+            android:text="@string/cancel" />
+    </LinearLayout>
+
+</RelativeLayout>

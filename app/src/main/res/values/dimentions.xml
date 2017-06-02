@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="table_2_rows_right_left">30dp</dimen>
+    <dimen name="table_3_rows_right_left">10dp</dimen>
+    <dimen name="table_bottom">10dp</dimen>
+    <dimen name="table_top">10dp</dimen>
+    <dimen name="time_right">20dp</dimen>
+    <dimen name="button_height">30dp</dimen>
+    <dimen name="button_1_right_left">20dp</dimen>
+    <dimen name="button_2_right_left">15dp</dimen>
+    <dimen name="button_2_betwin">15dp</dimen>
+    <dimen name="button_2_bottom">10dp</dimen>
+    <dimen name="button_2_top">20dp</dimen>
+    <dimen name="note_right_left">10dp</dimen>
+    
+    <dimen name="button_roll_right_left">5dp</dimen>
+    <dimen name="button_roll_bottom">5dp</dimen>
+    <dimen name="button_roll_top">5dp</dimen>
+    
+</resources>

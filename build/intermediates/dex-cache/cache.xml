@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\Alexeyool\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-v4\18.0.0\support-v4-18.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="44ec51e9d395a47aab135e5e1b556c0007442156">
+        <dex dex="E:\Android\WorkSpace\TimeClock1\app\build\intermediates\pre-dexed\debug\support-v4-18.0.0_13c92bd0010b34a5a1b7f902c51dac5afca83566.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\Android\WorkSpace\TimeClock1\libs\jxl.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="7faf62e0697f7a88954622dfe8c8de33ed142ac7">
+        <dex dex="E:\Android\WorkSpace\TimeClock1\app\build\intermediates\pre-dexed\debug\jxl_08fadc7cfe4272a75298950adafbde97cc3c1a7d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\Android\WorkSpace\TimeClock1\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\18.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="8f11f56e350eacabf2273f646d981356eea0ed77">
+        <dex dex="E:\Android\WorkSpace\TimeClock1\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-18.0.0_4f479448e4db215dd384d6acefd3b0976a7dcb99.jar" />
+    </item>
+
+</items>

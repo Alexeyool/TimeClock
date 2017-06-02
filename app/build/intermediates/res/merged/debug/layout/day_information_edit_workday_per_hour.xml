@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linearLayoutDIEW_main"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+     android:focusable="true"
+        android:descendantFocusability="beforeDescendants"
+        android:focusableInTouchMode="true">
+
+    <TableLayout
+        android:id="@+id/tableLayoutDIEW_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="@dimen/table_3_rows_right_left"
+        android:stretchColumns="*">
+
+        <TableRow
+            android:id="@+id/tableRowDIEW_time_start"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/TextViewDIEW_start"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/start" />
+
+            <EditText
+                android:id="@+id/EditTextDIEW_start_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/time_right"
+                android:inputType="time"
+                android:text="@string/empty_time" >
+            </EditText>
+
+            <EditText
+                android:id="@+id/EditTextDIEW_start_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="date"
+                android:text="@string/empty_date" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRowDIEW_time_end"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/textViewDIEW_end"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/end" />
+
+            <EditText
+                android:id="@+id/EditTextDIEW_end_time"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/time_right"
+                android:inputType="time"
+                android:text="@string/empty_time" />
+
+            <EditText
+                android:id="@+id/EditTextDIEW_end_date"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="date"
+                android:text="@string/empty_date" />
+        </TableRow>
+
+        <TextView
+            android:id="@+id/textViewDIEW_time_error"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/empty"
+            android:textColor="@color/red" />
+
+    </TableLayout>
+
+    <TableLayout
+        android:id="@+id/tableLayoutDIEW_misc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="@dimen/table_2_rows_right_left"
+        android:layout_marginLeft="@dimen/table_2_rows_right_left"
+        android:layout_marginBottom="@dimen/table_bottom"
+        android:stretchColumns="*" >
+
+        <TableRow
+            android:id="@+id/tableRowDIEW_pay_per_hour"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/textViewDIEW_pay_per_hour_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/per_hour" />
+
+            <EditText
+                android:id="@+id/editTextDIEW_pay_per_hour_money"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="numberDecimal"
+                android:text="@string/zero" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRowDIEW_not_pay_break"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/textViewDIEW_not_pay_break_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/not_pay_braek" />
+
+            <EditText
+                android:id="@+id/EditTextDIEW_not_pay_break_Time"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:text="@string/empty_time" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRowDIEW_award"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/textViewDIEW_award_titel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/award" />
+
+            <EditText
+                android:id="@+id/EditTextDIEW_award_money"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="numberDecimal"
+                android:text="@string/zero" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRowDIEW_flow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/textViewDIEW_flow_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/flow" />
+
+            <EditText
+                android:id="@+id/EditTextDIEW_flow_money"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="numberDecimal"
+                android:text="@string/zero" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRowDIEW_travel_per_day"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/textViewDIEW_travel_per_day_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/travel_per_day" />
+
+            <EditText
+                android:id="@+id/editTextDIEW_travel_per_day"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="numberDecimal"
+                android:text="@string/zero" />
+        </TableRow>
+
+        <TextView
+            android:id="@+id/textViewDIEW_misc_error"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/empty"
+            android:textColor="@color/red" />
+
+    </TableLayout>
+
+    <TableLayout
+        android:id="@+id/tableLayoutDIEW_procents"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:layout_marginRight="@dimen/table_3_rows_right_left"
+        android:layout_marginLeft="@dimen/table_3_rows_right_left"
+        android:layout_marginBottom="@dimen/table_bottom"
+        android:stretchColumns="*" >
+    </TableLayout>
+
+    <TableLayout
+        android:id="@+id/tableLayoutDIEW_total"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/table_3_rows_right_left"
+        android:stretchColumns="*" >
+
+        <TableRow
+            android:id="@+id/tableRowDIEW_summary_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/textViewDIEW_sum_empty"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/empty" />
+
+            <TextView
+                android:id="@+id/textViewDIEW_sum_hours"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/hours" />
+
+            <TextView
+                android:id="@+id/textViewDIEW_sum_money"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/money" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRowDIEW_summary_total"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/textViewDIEW_total_"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/total" />
+
+            <TextView
+                android:id="@+id/textViewDIEW_total_hours"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/zero" />
+
+            <TextView
+                android:id="@+id/textViewDIEW_total_money"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/zero" />
+        </TableRow>
+    </TableLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayoutDIEW_note"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="@dimen/note_right_left"
+        android:layout_marginLeft="@dimen/note_right_left"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textViewDIEW_note_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/add_note" />
+
+        <EditText
+            android:id="@+id/editTextDIEW_note"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textMultiLine" />
+    </LinearLayout>
+
+</LinearLayout>

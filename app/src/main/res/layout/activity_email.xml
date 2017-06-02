@@ -1,0 +1,208 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relativeLayoutAE_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/set2_main_backgraund"
+    tools:context="${packageName}.${activityClass}" >
+
+    <ScrollView
+        android:id="@+id/scrollViewAE"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/linearLayoutAE_buttons_send_cancel"
+        android:layout_alignParentTop="true" >
+
+        <LinearLayout
+            android:id="@+id/linearLayoutAE_main"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" 
+            android:focusable="true"
+        android:descendantFocusability="beforeDescendants"
+        android:focusableInTouchMode="true">
+
+            <TextView
+                android:id="@+id/textViewAE_email_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/table_top"
+                android:text="@string/email_address" />
+
+            <EditText
+                android:id="@+id/editTextAE_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textEmailAddress" />
+
+            <LinearLayout
+                android:id="@+id/linearLayoutAE_buttons_save_get"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/button_2_bottom"
+                android:layout_marginLeft="@dimen/button_2_right_left"
+                android:layout_marginRight="@dimen/button_2_right_left"
+                android:layout_marginTop="@dimen/button_2_top"
+                android:orientation="vertical" >
+
+                <Button
+                    android:id="@+id/buttonAE_get"
+                    style="@style/button_style"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/button_height"
+                    android:layout_marginBottom="@dimen/button_2_bottom"
+                    android:text="@string/get_address_from_list" />
+
+                <Button
+                    android:id="@+id/buttonAE_save"
+                    style="@style/button_style"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/button_height"
+                    android:text="@string/save_address" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textViewAE_date_for_send"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/table_3_rows_right_left"
+                android:text="@string/month_for_sending" />
+
+            <LinearLayout
+                android:id="@+id/linearLayoutAE_date"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" 
+                android:layout_marginBottom="@dimen/button_2_bottom"
+                android:layout_marginLeft="@dimen/button_2_right_left"
+                android:layout_marginRight="@dimen/button_2_right_left">
+
+                <Spinner
+                    android:id="@+id/spinnerAE_month"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/button_2_betwin"
+                    android:layout_weight="1" />
+
+                <Spinner
+                    android:id="@+id/spinnerAE_year"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/button_2_betwin"
+                    android:layout_weight="1" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textViewAE_kind_of_file"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/table_3_rows_right_left"
+                android:text="@string/choise_kind_of_file_for_send" />
+
+            <TableLayout
+                android:id="@+id/tableLayoutAE_kind_of_file"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" 
+                android:layout_marginBottom="@dimen/table_bottom"
+                android:layout_marginLeft="@dimen/table_3_rows_right_left"
+                android:layout_marginRight="@dimen/table_3_rows_right_left"
+                android:layout_marginTop="@dimen/table_top">
+
+                <TableRow
+                    android:id="@+id/tableRowAE_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" 
+                    android:layout_marginBottom="@dimen/table_top">
+
+                    <ImageView
+                        android:id="@+id/imageViewAE_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:contentDescription="@string/empty"
+                        android:src="@drawable/word" />
+
+                    <TextView
+                        android:id="@+id/textViewAE_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="10dp"
+                        android:text="@string/text" />
+
+                    <CheckBox
+                        android:id="@+id/checkBoxAE_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="60dp"
+                        android:text="@string/empty" />
+
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tableRowAE_excel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+
+                    <ImageView
+                        android:id="@+id/ImageViewAE_excel"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:contentDescription="@string/empty"
+                        android:src="@drawable/excel" />
+
+                    <TextView
+                        android:id="@+id/textViewAE_excel"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="10dp"
+                        android:text="@string/excel" />
+
+                    <CheckBox
+                        android:id="@+id/checkBoxAE_excel"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="60dp"
+                        android:text="@string/empty" />
+
+                </TableRow>
+            </TableLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/linearLayoutAE_buttons_send_cancel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="@dimen/button_2_right_left"
+        android:layout_marginRight="@dimen/button_2_right_left"
+        android:layout_marginBottom="@dimen/button_2_bottom"
+        android:layout_marginTop="@dimen/button_2_top"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/buttonAE_send"
+            style="@style/button_style"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/button_height"
+            android:layout_marginRight="@dimen/button_2_betwin"
+            android:layout_weight="1"
+            android:text="@string/send" />
+
+        <Button
+            android:id="@+id/buttonAE_cancel"
+            style="@style/button_style"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/button_height"
+            android:layout_marginLeft="@dimen/button_2_betwin"
+            android:layout_weight="1"
+            android:text="@string/cancel" />
+
+    </LinearLayout>
+
+</RelativeLayout>

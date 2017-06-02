@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollViewDIEQ"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"  >
+
+    <LinearLayout
+        android:id="@+id/linearLayoutDIEQ_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" 
+        android:focusable="true"
+        android:descendantFocusability="beforeDescendants"
+        android:focusableInTouchMode="true">
+        
+         <TableLayout
+        android:id="@+id/tableLayoutDIEQ"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:layout_marginRight="@dimen/table_3_rows_right_left"
+            android:layout_marginLeft="@dimen/table_3_rows_right_left"
+            android:layout_marginTop="@dimen/table_top"
+            android:layout_marginBottom="30dp">
+
+        <TableRow
+            android:id="@+id/tableRowDIEQ_profile_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/textViewDIEQ_profile_name_title"
+                style="@style/text_view_main_style"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/profile_name" />
+
+            <Spinner
+                android:id="@+id/SpinnerDIEQ_profile_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"/>
+
+        </TableRow>
+
+    </TableLayout>
+    
+<TableLayout
+            android:id="@+id/tableLayoutDIEQ_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginRight="@dimen/table_3_rows_right_left"
+            android:layout_marginLeft="@dimen/table_3_rows_right_left"
+            android:layout_marginBottom="50dp">
+
+    <TableRow
+        android:id="@+id/tableRowDIEQ_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textViewDIEQ_date_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/date" />
+
+        <EditText
+            android:id="@+id/editTextDIEQ_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:inputType="date" >
+
+            <requestFocus />
+        </EditText>
+    </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRowDIEQ_time_start"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/TextViewDIEQ_start"
+                    style="@style/text_view_main_style"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="40dp"
+                    android:layout_weight="4"
+                    android:text="@string/start" />
+
+                <EditText
+                    android:id="@+id/EditTextDIEQ_start_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:inputType="time"
+                    android:layout_marginRight="20dp"
+                    android:layout_weight="2"
+                    android:text="@string/empty_time" >
+                </EditText>
+
+                <EditText
+                    android:id="@+id/EditTextDIEQ_start_date"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:inputType="date"
+                    android:layout_weight="2"
+                    android:text="@string/empty_date" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRowDIEQ_time_end"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/textViewDIEQ_end"
+                    style="@style/text_view_main_style"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="40dp"
+                    android:layout_weight="4"
+                    android:text="@string/end" />
+
+                <EditText
+                    android:id="@+id/EditTextDIEQ_end_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:inputType="time"
+                    android:layout_marginRight="20dp"
+                    android:layout_weight="2"
+                    android:text="@string/empty_time" />
+
+                <EditText
+                    android:id="@+id/EditTextDIEQ_end_date"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:inputType="date"
+                    android:layout_weight="2"
+                    android:text="@string/empty_date" />
+            </TableRow>
+
+            <TextView
+                android:id="@+id/textViewDIEQ_error"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/empty"
+                android:textColor="@color/red" />
+
+        </TableLayout>
+
+<Button
+    android:id="@+id/buttonDIEQ_full_edit"
+    style="@style/button_style"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/button_height"
+    android:layout_gravity="center_horizontal"
+    android:layout_marginLeft="@dimen/button_1_right_left"
+    android:layout_marginRight="@dimen/button_1_right_left"
+    android:gravity="center_vertical|center_horizontal"
+    android:text="@string/open_full_edit" />
+
+    </LinearLayout>
+    
+
+</ScrollView>
